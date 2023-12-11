@@ -1109,12 +1109,6 @@ img {
   background-color: var(--shade-blue-color);
 }
 
-.about__textarea:focus-visible,
-.about__input:focus-visible {
-  border-color: var(--white-color);
-  background-color: transparent;
-}
-
 .about__textarea:hover,
 .about__input:hover {
   border-color: var(--white-color);
