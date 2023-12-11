@@ -1080,7 +1080,8 @@
   }
 
   .footer__right {
-    flex: 0 0 100%;
+    display: flex;
+    justify-content: center;
     padding: 26px;
     min-height: 216px;
     background-color: var(--dark-blue-color);
@@ -1091,7 +1092,7 @@
     justify-content: normal;
     row-gap: 17.6px;
     column-gap: 68px;
-    width: 100%;
+    max-width: 268px;
     min-height: 163px;
   }
 
