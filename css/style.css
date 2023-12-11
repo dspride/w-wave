@@ -635,18 +635,12 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  row-gap: 8px;
   width: 50%;
-}
-
-.guests__preview-descr {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 59px;
 }
 
 .guests__preview-title {
   margin: 0;
-  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 20px;
@@ -668,7 +662,6 @@ img {
   border: 2px solid var(--light-violet-color);
   border-radius: 77px;
   outline: none;
-  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
   width: 160px;
   height: 40px;
   font-weight: 500;
@@ -676,6 +669,7 @@ img {
   line-height: 16px;
   color: var(--light-violet-color);
   background-color: transparent;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
 .guests__link:focus {
