@@ -124,12 +124,12 @@ img {
   border: 2px solid transparent;
   border-radius: 40px;
   outline: none;
-  transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
   font-weight: 500;
   font-size: 20px;
   line-height: 20px;
   color: var(--white-color);
   background-color: var(--violet-color);
+  transition: border 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
 .btn-violet:focus {
@@ -192,8 +192,8 @@ img {
 .link {
   padding: 4px 10px;
   outline: none;
-  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
   background: transparent;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
 .link:focus {
@@ -428,14 +428,14 @@ img {
   border: 2px solid var(--dark-blue-color);
   border-radius: 77px;
   outline: none;
-  transition: border 0.3s ease-in-out, color 0.3s ease-in-out,
-    background-color 0.3s ease-in-out;
   width: 160px;
   color: var(--dark-blue-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 16px;
   background-color: transparent;
+  transition: border 0.3s ease-in-out, color 0.3s ease-in-out,
+    background-color 0.3s ease-in-out;
 }
 
 .broadcasts__link:focus {
@@ -895,14 +895,14 @@ img {
   outline: none;
   border: 2px solid var(--light-gold-color);
   border-radius: 100px;
-  transition: border-color 0.3s ease-in-out, color 0.3s ease-in-out,
-    background-color 0.3s ease-in-out;
   width: 300px;
   font-weight: 500;
   font-size: 20px;
   line-height: 20px;
   color: var(--light-gold-color);
   background-color: transparent;
+  transition: border-color 0.3s ease-in-out, color 0.3s ease-in-out,
+    background-color 0.3s ease-in-out;
 }
 
 .advertising__link svg path:first-child {
@@ -1090,12 +1090,12 @@ img {
 .about__input {
   outline: none;
   border: 1px solid var(--white-color);
-  transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
   font-weight: 400;
   font-size: 20px;
   line-height: 20px;
   color: var(--white-color);
   background-color: transparent;
+  transition: border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
 .about__textarea::placeholder,
@@ -1166,11 +1166,11 @@ img {
   position: relative;
   flex-shrink: 0;
   padding-left: 22px;
-  transition: color 0.3s ease-in-out;
   font-weight: 500;
   font-size: 12px;
   line-height: 24px;
   color: var(--white-color);
+  transition: color 0.3s ease-in-out;
 }
 
 .about__checkbox-text::before {
@@ -1189,7 +1189,6 @@ img {
   position: absolute;
   left: 0;
   top: 50%;
-  transition: opacity 0.3s ease-in-out;
   width: 14px;
   height: 14px;
   background-image: url("../img/mark.svg");
@@ -1197,7 +1196,7 @@ img {
   background-position: center;
   background-size: 70%;
   opacity: 0;
-
+  transition: opacity 0.3s ease-in-out;
   transform: translateY(-50%);
 }
 
